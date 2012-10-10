@@ -13,7 +13,7 @@ public class Futures {
     static double theoreticalContractPrice(double baseInstr , double riskFreeIR, int n)
     {   
         double result = -1.0;
-        
+        //robota branch
         result = baseInstr * (1+riskFreeIR * (n/365));
         return result;
     }
